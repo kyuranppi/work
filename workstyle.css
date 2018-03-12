@@ -1,0 +1,43 @@
+nav {
+    text-align: right;
+}
+nav.p{
+    text-align: left;
+}
+p{
+    text-align:center;
+}
+h1,h2,h3,h4,h5,h6{
+    
+    text-align: center;
+}
+
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+.footer_content{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section.left{
+    margin:50px 0px 50px 50px;
+}
+section.right{
+    margin:50px 50px 50px 0px;
+   
+}
+section.mid{
+    margin: 0px 50px 0px 50px;
+    
+}
